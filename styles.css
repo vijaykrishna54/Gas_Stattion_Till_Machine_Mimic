@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  background-color: rgb(44, 137, 200);
+  height: 5vh;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  color: white;
+  box-sizing: border-box;
+  height: inherit;
+}
+.menu_left {
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu_right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu_left_item {
+  border: 1px solid black;
+}
+.menu_right_item {
+  border: 0.1px solid rgb(69, 69, 69);
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+}
+
+/***********Menu_Items***************/
+
+.all_halt {
+  background-color: red;
+  align-items: center;
+  padding: 10px;
+}
+.halt_a_pump {
+  background-color: rgb(239, 178, 64);
+  padding: 10px;
+}
+.menu_item {
+  background-color: grey;
+}
+/****************Body*********************/
+
+.body {
+  display: flex;
+  justify-content: space-around;
+  height: 85vh;
+  background-color: rgb(194, 194, 194);
+}
+
+.body_left {
+  flex: 1;
+}
+.body_middle {
+  flex: 1;
+}
+.body_right {
+  flex: 0.4;
+}
+
+.pump {
+  background-color: brown;
+  margin: 5px;
+  padding: 30px;
+  color: white;
+}
+.icon {
+  height: 0px;
+}
+
+/*****************Body_Left***************/
+
+.body_left_top {
+  display: flex;
+  height: 30px;
+}
+.sale1 {
+  width: 50%;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  margin-right: 2px;
+}
+.sale2 {
+  width: 50%;
+  font-size: 20px;
+  background-color: gray;
+  color: white;
+}
+.body_left_middle {
+  background-color: rgb(232, 231, 231);
+  height: 65vh;
+  border: 1px solid black;
+}
+
+/**************Body_left_Middle_Reciept and Total**************/
+.reciept {
+  height: 75%;
+  background-color: rgb(222, 222, 222);
+  padding: 5px;
+}
+.line1 {
+  display: flex;
+  justify-content: space-between;
+}
+.line6 {
+  display: flex;
+  justify-content: center;
+}
+.reciept_item {
+  padding-bottom: 5px;
+}
+
+/***************Table Styles***************/
+
+th {
+  background-color: rgb(184, 184, 184);
+  padding: 3px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+}
+td {
+  width: 300px;
+  text-align: center;
+}
+
+.brown {
+  color: brown;
+  font-size: 30px;
+}
+.col1 {
+  padding: 3px;
+  text-align: start;
+}
+.start {
+  text-align: start;
+}
+.end {
+  text-align: end;
+}
+
+.bold {
+  font-size: large;
+}
+.total {
+  height: 25%;
+  background-color: white;
+}
+.total_table {
+  padding-top: 30px;
+}
+.body_left_bottom {
+  display: flex;
+  justify-content: space-evenly;
+  height: 15vh;
+  margin-top: 3px;
+}
+.left {
+  border: 1px solid black;
+  background-color: rgb(184, 184, 184);
+  width: 50%;
+  position: relative;
+}
+.text {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.right {
+  border: 1px solid black;
+  background-color: white;
+  width: 50%;
+}
+
+/**********Body_Middle********************/
+
+.body_middle_top {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+.price_check {
+  background-color: rgb(39, 147, 120);
+  color: white;
+  width: 35px;
+  margin-right: 3px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last {
+  width: 100px;
+  align-items: center;
+}
+
+.body_middle_center {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 3px;
+  width: 500px;
+  height: 300px;
+  color: white;
+}
+.both_icon_and_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+}
+p {
+  padding-top: 10px;
+}
+.item1,
+.item2,
+.item3 {
+  background-color: rgb(233, 146, 146);
+}
+
+.item4 {
+  background-color: rgb(122, 48, 233);
+}
+.item5 {
+  background-color: red;
+}
+.item6,
+.item7,
+.item8,
+.item9 {
+  background-color: brown;
+}
+.item10 {
+  background-color: rgb(6, 6, 118);
+}
+.item11 {
+  background-color: green;
+}
+.item12 {
+  background-color: blueviolet;
+}
+
+/**************Footer********************/
+
+.footer {
+  background-color: rgb(44, 137, 200);
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer_buttons {
+  border: 1px solid black;
+  width: 120px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background-color: brown;
+}
